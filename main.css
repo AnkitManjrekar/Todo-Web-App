@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #67e3cb, #00d2dc, #00bdea,
+            #00a5ef, #4d88e4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin: 100px 0;
+    background-color: white;
+    padding: 24px;
+    width: 362px;
+    min-height: 213px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px -2px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add_box{
+    margin: 28px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box{
+    width: 264px;
+    height: 45px;
+    padding: 10px;
+    /* font-weight: bold; */
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+.input-box:hover{
+    outline: none;
+}
+
+.add-btn {
+    width: 46px;
+    background-color: #8D4AE7;
+    color: white;
+    font-size: 30px;
+    /* font-weight: bolder; */
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+}
+
+.footer{
+    /* background-color: #00a5ef; */
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 0 18px 0;
+    height: 38px;
+    line-height: 38px;
+}
+
+.footer .clear-btn{
+    width: 78px;
+    background-color: #8D4AE7;
+    border: none;
+    color: white;
+    /* font-weight: bold; */
+    border-radius: 5px;
+}
+
+.clear-btn:hover{
+    cursor: pointer;
+}
+
+/* .todo-list{
+    background-color: #4d88e4;
+    
+} */
+
+.todo-item{
+    background-color: #e2e1e2;
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0;
+    line-height: 41.6px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.todo-item button{
+    padding: 10px 17px;
+    background-color: #E44E3B;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.todo-item button:hover{
+    cursor: pointer;
+}
